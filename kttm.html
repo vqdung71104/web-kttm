@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KTTM-DUNG</title>  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="TieuDe">
+    <h1>WEB CỦA DŨNG!!!</h1>
+  </div>
+  
+  <div class="container1">
+    <div class="row">
+      <div class="Word_list">
+        <label for="Word_list">Danh sách từ mới:</label>
+        <textarea id="Word_list" name="Word_list" required></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container2">
+        <div class="column">
+          <div>
+            <button class="displayVn" onclick="displayVn()">Nghĩa tiếng Việt:</button>
+          </div>
+          <div>
+            
+            <ul id="vn-list"></ul>
+          </div>
+        </div>
+        <div class="column">
+          <div>
+            <button class="displayEn" onclick="displayEn()">Nghĩa tiếng Anh:</button>
+          </div>
+          <div>
+            
+            <ul id="en-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
