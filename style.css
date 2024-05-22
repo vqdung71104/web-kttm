@@ -1,0 +1,53 @@
+
+.container1 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.name-display {
+  font-weight: bold;
+}
+
+.Word_list{
+  font-size: xx-large;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.column button {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.column button.displayVn {
+  background-color: #e6db;
+  color: white;
+}
+
+.column button.displayEn {
+  background-color: #a6e22e;
+  color: white;
+} 
+
+.TieuDe{
+  size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #f92672;
+}
+
+
+
+
+
+
+
+
