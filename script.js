@@ -10,7 +10,7 @@ function displayVn() {
   var empty_lines_length = 1; // Độ dài của dòng trống được in ra
   var empty_lines = new Array(empty_lines_length);
   for (var i = 0; i < empty_lines.length; i++) {
-    empty_lines[i] = "----------------------------------------------------------------------"; 
+    empty_lines[i] = ""; 
   }
 
   for (var i = 0; i < lines.length; i++) {
@@ -47,7 +47,7 @@ function displayEn() {
   var empty_lines_length = 1; // Độ dài của dòng trống được in ra
   var empty_lines = new Array(empty_lines_length);
   for (var i = 0; i < empty_lines.length; i++) {
-    empty_lines[i] = "----------------------------------------------------------------------"; 
+    empty_lines[i] = ""; 
   }
 
   for (var i = 0; i < lines.length; i++) {
